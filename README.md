@@ -51,13 +51,24 @@ Este repositorio contiene un prototipo de página web para gestionar ingresos de
 
 ## 📜 Historial de Versionamiento
 
-Consulta el documento de historial de versionamiento [aquí](#) *(o puedes agregar el enlace real al archivo si decides crear uno separado)*.
+Versión	Cambio / Modificación	Fecha	Personal que realiza el cambio  
+1.0.1	Creación del archivo index.html con estructura básica de la página //	2024-05-01 #	Desarrollador 1  
+1.0.2	Agregado de cards con títulos y descripciones	// 2024-05-03	# Desarrollador 1  
+1.0.3	Creación de formulario emergente para ingresar proyecto	// 2024-05-05	# Desarrollador 2  
+1.0.4	Implementación de modal de inicio de sesión	// 2024-05-07 #	Desarrollador 2  
+1.0.5	Diseño inicial en styles.css: colores, layout, tipografía	// 2024-05-08 #	Desarrollador 3  
+1.0.6	Añadido script.js para manejar interacción con formularios y modal de login	// 2024-05-10 #	Desarrollador 2  
+1.0.7	Estilo de tarjetas mejorado (hover, padding, sombreado)	// 2024-05-12 #	Desarrollador 3  
+1.0.8	Sección de navegación agregada con submenú ("Nuestra historia", etc.)	// 2024-05-13 #	Desarrollador 1  
+1.0.9	Footer agregado con información de contacto	// 2024-05-14	Desarrollador 3  
+1.1.0	Versión prototipo estable: página principal funcional con formularios, login y estilos	// 2024-05-15	Desarrollador 1, 2 y 3
+
 
 ---
 
 ## 📷 Captura de Pantalla
 
-> Puedes agregar aquí una imagen de la interfaz, por ejemplo:
+
 
 ![image](https://github.com/user-attachments/assets/52bd1b72-6d34-4d58-8764-dedfcc90ee11)
 
