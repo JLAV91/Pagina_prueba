@@ -5,10 +5,10 @@ Este repositorio contiene un prototipo de página web para gestionar ingresos de
 ---
 
 ## 📁 Estructura del Proyecto
-├── index.html # Página principal
-├── style.css # Estilos generales
-├── script.js # Funcionalidad JS (formularios y modal)
-├── img/ # Carpeta para imágenes como el logo
+├── index.html # Página principal  
+├── style.css # Estilos generales  
+├── script.js # Funcionalidad JS (formularios y modal)  
+├── img/ # Carpeta para imágenes como el logo  
 └── README.md # Documentación del proyecto
 
 ---
