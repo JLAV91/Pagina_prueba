@@ -59,7 +59,8 @@ Consulta el documento de historial de versionamiento [aquí](#) *(o puedes agreg
 
 > Puedes agregar aquí una imagen de la interfaz, por ejemplo:
 
-![Captura de pantalla](img/demo.png)
+![image](https://github.com/user-attachments/assets/52bd1b72-6d34-4d58-8764-dedfcc90ee11)
+
 
 ---
 
