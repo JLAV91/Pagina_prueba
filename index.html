@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página Principal</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="img/logo.jpg" Logo" class="logo" />
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Inicio</a></li>
+          <li>
+            <a href="#">Documentación</a>
+            <ul class="submenu">
+              <li><a href="#">Personales</a></li>
+              <li><a href="#">SAG</a></li>
+              <li><a href="#">PDI / Carabineros</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="login-icon-container">
+      <button class="login-btn" onclick="openModal()">
+        <i class="fas fa-user"></i> Iniciar sesión
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="cards">
+      <h2>Formularios de ingresos</h2>
+      <div class="card-container">
+        <div class="card" onclick="showProjectForm('project1')">
+          <h3>Vehículo</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, fugit nostrum eius dolor tenetur
+            earum quaerat laboriosam alias adipisci laudantium!</p>
+        </div>
+        <div class="card" onclick="showProjectForm('project2')">
+          <h3>Vehículo de terceros</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, fugit nostrum eius dolor tenetur
+            earum quaerat laboriosam alias adipisci laudantium!</p>
+        </div>
+        <div class="card" onclick="showProjectForm('project2')">
+          <h3>Personas nacionalidad chilena</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, fugit nostrum eius dolor tenetur
+            earum quaerat laboriosam alias adipisci laudantium!</p>
+        </div>
+        <div class="card" onclick="showProjectForm('project2')">
+          <h3>Formulario de prueba</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, fugit nostrum eius dolor tenetur
+            earum quaerat laboriosam alias adipisci laudantium!</p>
+        </div>
+        <div class="card" onclick="showProjectForm('project2')">
+          <h3>Formulario de prueba</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, fugit nostrum eius dolor tenetur
+            earum quaerat laboriosam alias adipisci laudantium!</p>
+        </div>
+        <div class="card" onclick="showProjectForm('project2')">
+          <h3>Formulario de prueba</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, fugit nostrum eius dolor tenetur
+            earum quaerat laboriosam alias adipisci laudantium!</p>
+        </div>
+        <div class="card" onclick="showProjectForm('project2')">
+          <h3>Formulario de prueba</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, fugit nostrum eius dolor tenetur
+            earum quaerat laboriosam alias adipisci laudantium!</p>
+        </div>
+        <div class="card" onclick="showProjectForm('project2')">
+          <h3>Ingreso con vehiculo de terceros</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, fugit nostrum eius dolor tenetur
+            earum quaerat laboriosam alias adipisci laudantium!</p>
+        </div>
+        <div class="card" onclick="showProjectForm('project2')">
+          <h3>Ingreso con vehiculo de terceros</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, fugit nostrum eius dolor tenetur
+            earum quaerat laboriosam alias adipisci laudantium!</p>
+        </div>
+        <div class="card" onclick="showProjectForm('project2')">
+          <h3>Ingreso con vehiculo de terceros</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, fugit nostrum eius dolor tenetur
+            earum quaerat laboriosam alias adipisci laudantium!</p>
+        </div>
+      </div>
+
+      <!-- Sección para mostrar formulario del proyecto -->
+      <div id="project-form" class="hidden">
+        <h3 class="form-title" id="project-title-form"></h3>
+        <form id="project-details-form">
+          <label for="name">Nombre:</label>
+          <input class="form-input" type="text" id="name" placeholder="Ingresa tu nombre" required />
+
+          <label for="email">Correo electrónico:</label>
+          <input class="form-input" type="email" id="email" placeholder="Ingresa tu correo electrónico" required />
+
+          <label for="project-description">Descripción del Proyecto:</label>
+          <textarea class="form-input" id="project-description"
+            placeholder="Escribe una descripción del proyecto"></textarea>
+
+          <button type="submit" class="btn_enviar_form">Enviar formulario</button>
+        </form>
+        <button onclick="closeProjectForm()">Cerrar</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal de inicio de sesión -->
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2>Iniciar Sesión</h2>
+      <form>
+        <label for="email-login">Correo electrónico:</label>
+        <input type="email" id="email-login" placeholder="Ingresa tu correo" required />
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" placeholder="Ingresa tu contraseña" required />
+
+        <button type="submit">Iniciar sesión</button>
+      </form>
+      <div class="login-links">
+        <a href="#">¿Olvidaste tu contraseña?</a>
+        <a href="#">Crear cuenta</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.471297808356!2d-70.718422!3d-33.51513009999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662dca738b6e2cd%3A0x61403e0844e0201f!2sDuoc%20UC%20Sede%20Plaza%20Oeste!5e0!3m2!1ses-419!2scl!4v1751000177353!5m2!1ses-419!2scl"
+      width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p>Dirección: Calle Falsa 123, Ciudad, País</p>
+    <p>Teléfono: +123 456 7890 | Email: contacto@ejemplo.com</p>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

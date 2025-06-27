@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario Proyecto</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="img/logo.png" alt="Logo" class="logo" />
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li>
+            <a href="#">Servicios</a>
+            <ul class="submenu">
+              <li><a href="#">Web</a></li>
+              <li><a href="#">App</a></li>
+              <li><a href="#">Consultoría</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="formulario">
+      <h2>Formulario de Proyecto</h2>
+      <form>
+        <label for="full-name">Nombre completo:</label>
+        <input type="text" id="full-name" placeholder="Nombre completo" required />
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" placeholder="Correo electrónico" required />
+
+        <label for="project-description">Descripción del proyecto:</label>
+        <textarea id="project-description" placeholder="Escribe una breve descripción del proyecto" required></textarea>
+
+        <button type="submit">Enviar Proyecto</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Dirección: Calle Falsa 123, Ciudad, País</p>
+    <p>Teléfono: +123 456 7890 | Email: contacto@ejemplo.com</p>
+  </footer>
+
+</body>
+</html>
